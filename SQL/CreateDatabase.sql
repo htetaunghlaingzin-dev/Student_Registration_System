@@ -1,0 +1,3 @@
+-- Microsoft Access/Jet cannot create an MDB database from an SQL statement.
+-- Database/DatabaseInitializer.cs creates Data/UCSPyayRegistration.mdb automatically
+-- through the installed ADOX catalog and then executes the Access DDL.

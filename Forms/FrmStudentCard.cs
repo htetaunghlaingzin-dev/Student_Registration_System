@@ -1,0 +1,2 @@
+using System.Drawing;using System.Windows.Forms;using UCSPyayStudentRegistration.Helpers;
+namespace UCSPyayStudentRegistration.Forms { public class FrmStudentCard:StyledForm { public FrmStudentCard(string text){Text="Student Card";Size=new Size(520,320);Controls.Add(new Label{Text=text,Dock=DockStyle.Fill,TextAlign=ContentAlignment.MiddleCenter,Font=new Font("Segoe UI",14,FontStyle.Bold),BorderStyle=BorderStyle.FixedSingle});} } }
